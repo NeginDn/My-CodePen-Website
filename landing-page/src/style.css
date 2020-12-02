@@ -1,0 +1,148 @@
+
+body {
+  background-color: #B9CBDA;
+  font-family: 'Lato', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0 30px;
+  height: 40px;
+  border: 3px black solid;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 50px;
+  min-width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  background-color: #f1c40f;
+  
+}
+.logo {
+  width: 80px;
+  height: 100%;
+}
+ #header-img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+}
+
+  nav {
+    font-weight: 400;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+@media (max-width: 650px) {
+ <p>This version is not available yet</p>
+  }
+ ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#video {
+  display: block;
+  margin: auto;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#info {
+  margin-top: 100px;
+  margin-left: 15%; 
+  margin-right: 15%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#newsletter input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#newsletter input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+ .level {
+  background-color: #f1c40f;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+ button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
